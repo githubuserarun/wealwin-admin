@@ -23,6 +23,7 @@ function AdminHeader() {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Dashboard</Nav.Link>
                         <Nav.Link href="/admin-handle-users">Users</Nav.Link>
+                        <Nav.Link href="/admin-orders">Order list</Nav.Link>
                         <NavDropdown title="Products" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="/admin-products">View Products</NavDropdown.Item>
                             <NavDropdown.Item href="/admin-catogory">view category</NavDropdown.Item>

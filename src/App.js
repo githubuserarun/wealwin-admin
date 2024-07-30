@@ -10,6 +10,7 @@ import AdminViewProducts from './Components/AdminViewProducts';
 import AdminCatogory from './Components/AdminCatogory'
 import AdminSubCategories from './Components/AdminSubCategory';
 import ProtectedRoute from './Components/ProtectedRoute';
+import AdminOrders from './Components/AdminOrders';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/admin-products" element={ <ProtectedRoute element={<AdminViewProducts />} /> } />
           <Route exact path="/admin-catogory" element={ <ProtectedRoute element={<AdminCatogory />} /> } />
           <Route exact path="/admin-subCatogory" element={ <ProtectedRoute element={<AdminSubCategories />} /> } />
+          <Route exact path="/admin-orders" element={ <ProtectedRoute element={<AdminOrders />} /> } />
         </Routes>
       </Router>
       <ToastContainer />

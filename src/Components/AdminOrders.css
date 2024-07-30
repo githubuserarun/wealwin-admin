@@ -1,0 +1,59 @@
+/* AdminOrders.css */
+.admin-orders-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-orders-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .admin-orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-orders-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .admin-orders-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-orders-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .admin-orders-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .status-badge {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .status-active {
+    background-color: #e6f4ea;
+    color: #1e7e34;
+  }
+  
+  .status-inactive {
+    background-color: #fbe9e7;
+    color: #d32f2f;
+  }
