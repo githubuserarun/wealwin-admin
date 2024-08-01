@@ -7,7 +7,10 @@ const ProtectedRoute = ({ element, ...rest }) => {
 
     if (!token) {
         return <Navigate to="/admin-login" replace />;
-    }
+     }
+    //else{
+    //     return <Navigate to="/" replace />;
+    // }
 
     return element;
 };

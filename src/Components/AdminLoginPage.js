@@ -38,9 +38,9 @@ const AdminLoginPage = () => {
 
       const jwtToken = data.token;
       if (data.admin) {
-        Cookies.set("jwtAdminToken", jwtToken, { expires: 3 });
+        Cookies.set("jwtAdminToken", jwtToken, { expires: 1 });
       } else {
-        Cookies.set("jwtToken", jwtToken, { expires: 3 });
+        Cookies.set("jwtToken", jwtToken, { expires: 1 });
       }
 
       setUsername("");
